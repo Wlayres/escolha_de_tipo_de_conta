@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;700;800&display=swap');
+
+
+/**estilização para dividir a tela ao meio**/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+}
+body{
+   display: flex;
+   justify-content: center;
+   min-width: 50vh;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   
+}
+   
+
+div.container {
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+}
+
+div.lado-esquerdo{
+
+   flex: 1; 
+   box-sizing: border-box;
+   background-image: linear-gradient(to right, black, purple);
+
+
+}
+
+div.lado-direito{
+   flex: 1;
+   box-sizing: border-box;
+   background-image: linear-gradient(90deg, purple, black);
+   width: 50%
+ }
+
+
+/**estilização para dividir a tela ao meio**/
+
+/**Estilização icones**/
+.icone{
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+height: 200px;
+}
+
+.icone >i{
+ 
+   color: white;
+   font-size: 50px;
+   cursor: pointer;
+   display:block;
+   transition: .2s;
+   box-shadow: 3px 0 0 white;
+}
+   
+h1{
+   display: block;
+   text-align: center;
+   cursor: pointer;
+  margin-top: 150px;
+  
+}
