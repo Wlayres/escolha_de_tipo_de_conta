@@ -53,6 +53,8 @@ div.lado-direito{
 
 .icone:hover{
    background-color: black;
+   transition: .5s;
+
 }
 .icone{
 display: flex;
